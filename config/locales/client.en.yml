@@ -1,0 +1,33 @@
+en:
+  js:
+    filters:
+      following:
+        title: "Following"
+        help: "topics with posts from users you're following"
+    notifications:
+      following: "<span>{{username}}</span> {{description}}"
+      following_description: "has started following you."
+      following_posted: "<span>{{username}}</span> {{description}}"
+      following_replied: "<span>{{username}}</span> {{description}}"
+      popup:
+        following: "{{username}} has started following you."
+        following_posted: '{{username}} posted "{{topic}}" - {{site_title}}'
+        following_replied: '{{username}} posted in "{{topic}}" - {{site_title}}'
+
+    topics:
+      none:
+        following: "There are no topics from users you're following."
+      bottom:
+        following: "There are no more topics from users you're following."
+    user:
+      follow_nav: "Network"
+      follow:
+        label: "Follow"
+      following:
+        label: "Following"
+        none: "You're not following anyone yet."
+        none_other: "{{username}} is not following anyone yet."
+      followers:
+        label: "Followers"
+        none: "No-one is following you yet."
+        none_other: "No-one is following {{username}} yet."

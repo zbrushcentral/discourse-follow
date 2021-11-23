@@ -1,0 +1,48 @@
+.follow-toggle {
+  text-align: center;
+  min-height: 30px;
+  float: right;
+
+  .spinner {
+    margin-top: 5px;
+  }
+
+  button {
+    width: 100%;
+    margin-bottom: 0 !important;
+  }
+}
+
+.user-main .controls .follow-toggle {
+  width: 140px;
+  margin-left: 4px;
+}
+
+.about.collapsed-info .follow-toggle {
+  margin-top: 1px;
+
+  button {
+    padding: 5px 10px;
+    min-height: initial;
+    margin-bottom: 0;
+  }
+}
+
+.viewing-self .follow-toggle {
+  display: none !important;
+}
+
+.follow-users {
+  padding: 10px 20px;
+}
+
+.follow-none {
+  background-color: $primary-low;
+  padding: 20px 30px;
+}
+
+.follow-statistic {
+  span:first-of-type {
+    margin-right: 3px;
+  }
+}
